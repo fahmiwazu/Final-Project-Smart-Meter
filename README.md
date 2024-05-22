@@ -1,7 +1,8 @@
 # Final-Project-Smart-Meter
 
 Overview
-this repository contain my final project source code for Embedded System development
+This repository contain my final project source code for Embedded System development. 
+We build Smart Energy Meter that can identify house-hold load based on harmonic trace
 
 Scope
 - Digital Signal Processing
@@ -15,6 +16,11 @@ C++ framework
 
 Hardware Specification
 - MCU: STM32F5VGTx
+- LCD: ILI9341 Resistive Touch LCD
 - Current sensors: Current Devider Method
 - Voltage sensors: Voltage Devider Method
 - Clamping IC: AMC1301
+
+Software Component 
+- CMSIS DSP
+- CMSIS CORE
